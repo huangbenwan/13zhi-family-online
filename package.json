@@ -1,0 +1,15 @@
+{
+  "name": "13zhi-family-online",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Five-player online 13-card poker family game prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
